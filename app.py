@@ -479,7 +479,7 @@ if not st.session_state.authenticated:
         st.markdown("""
         <div style="margin-top: 2rem;">
             <p>Don't have an access code?</p>
-            <a href="https://lindsayhiebert.gumroad.com/l/alphabet-adventure" target="_blank" class="gumroad-button">Purchase on Gumroad</a>
+            <a href="https://myapp.gumroad.com/l/abc" target="_blank" class="gumroad-button">Purchase on Gumroad</a>
         </div>
         """, unsafe_allow_html=True)
     
@@ -1114,7 +1114,7 @@ with st.sidebar:
         # Add upgrade link
         st.markdown("""
         <div style="margin: 1rem 0;">
-            <a href="https://lindsayhiebert.gumroad.com/l/alphabet-adventure" target="_blank" class="gumroad-button" style="display: inline-block; background-color: #FF90E8; color: #111; font-weight: bold; padding: 0.5rem 1rem; text-decoration: none; border-radius: 5px; text-align: center; width: 100%;">Upgrade for Full Access</a>
+            <a href="https://myapp.gumroad.com/l/abc" target="_blank" class="gumroad-button" style="display: inline-block; background-color: #FF90E8; color: #111; font-weight: bold; padding: 0.5rem 1rem; text-decoration: none; border-radius: 5px; text-align: center; width: 100%;">Upgrade for Full Access</a>
         </div>
         """, unsafe_allow_html=True)
     else:
@@ -1228,7 +1228,7 @@ st.subheader("Click a Letter! to hear its pronunciation and learn about it!")
 full_alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 if st.session_state.access_level == "demo":
     active_alphabet = "ABCDEF"
-    st.info("🔑 You're using the free demo version with access to letters A-F. [Get full access](https://lindsayhiebert.gumroad.com/l/alphabet-adventure) to unlock all 26 letters!")
+    st.info("🔑 You're using the free demo version with access to letters A-F. [Get full access](https://myapp.gumroad.com/l/abc) to unlock all 26 letters!")
 else:
     active_alphabet = full_alphabet
 
@@ -1365,7 +1365,7 @@ if st.session_state.access_level == "demo":
     <div style="margin-top: 30px; padding: 15px; background-color: #f8f9fa; border-radius: 10px; text-align: center;">
         <h3>Enjoying the Alphabet Adventure?</h3>
         <p style="font-size: 18px; margin: 10px 0;">Upgrade to premium for access to all 26 letters, 6 different voices, and HD audio!</p>
-        <a href="https://lindsayhiebert.gumroad.com/l/alphabet-adventure" target="_blank" class="gumroad-button" 
+        <a href="https://myapp.gumroad.com/l/abc" target="_blank" class="gumroad-button" 
            style="display: inline-block; background-color: #FF90E8; color: #111; 
                   font-weight: bold; padding: 0.7rem 1.5rem; text-decoration: none; 
                   border-radius: 5px; font-size: 18px; margin-top: 10px;">

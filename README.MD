@@ -25,7 +25,7 @@ An interactive, voice-enabled application designed to help children learn the al
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/alphabet-learning-adventure.git
+git clone https://github.com/your-username/alpha-learning-adventure.git
 cd alphabet-learning-adventure
 ```
 
@@ -48,9 +48,9 @@ streamlit run app.py
 
 The app uses a simple freemium model:
 
-- **Free Demo**: Access to letters A-F with basic "nova" voice
+- **Free Demo**: Access to letters A-F with basic "nova" voice [Streamlit] https://alpha-learning-adventure.streamlit.app/
 - **Premium Access**: Full access to all 26 letters, 6 voices, and HD audio
-- Purchase premium access on [Gumroad](https://lindsayhiebert.gumroad.com/l/alphabet-adventure)
+- Purchase premium access on [Gumroad](https://myapp.gumroad.com/l/abc)
 
 ## 🌐 Deployment
 
